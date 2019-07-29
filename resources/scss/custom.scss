@@ -1,0 +1,31 @@
+$primary: #FF9900;
+
+@import "bootstrap";
+
+.media {
+  padding: 40px;
+  a {
+    background-color: #e7ebee;
+  }
+  img {
+  border-radius: 25px;
+  border: 3px groove #FF9900;
+  box-shadow: 5px 10px 8px #888888;
+  }
+}
+
+%cards {
+  margin: 40px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.two-card {
+  @extend %cards;
+}
+
+.three-card {
+  @extend %cards;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
