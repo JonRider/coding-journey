@@ -1,4 +1,4 @@
-# Project 0
+# My Coding Journey
 > A website to display some of my coding projects and share my coding journey with others.
 
 ## HTML
